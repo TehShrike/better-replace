@@ -1,0 +1,26 @@
+{
+  "name": "better-replace",
+  "version": "1.0.0",
+  "description": "Use regular expressions to replace things in strings!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jsmd readme.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/better-replace.git"
+  },
+  "keywords": [
+    "regex",
+    "regular",
+    "expressions",
+    "replace",
+    "string"
+  ],
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/better-replace/issues"
+  },
+  "homepage": "https://github.com/TehShrike/better-replace#readme"
+}
