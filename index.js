@@ -8,5 +8,5 @@ module.exports = function replace(regex, replacerFunction, string) {
 function forceGlobal(regex) {
 	const isGlobal = regex.flags.split('').some(flag => flag === 'g')
 
-	return isGlobal ? regex : new RegExp(regex, regex.flags + 'g')
+	return isGlobal ? regex : new RegExp(regex.source, regex.flags + 'g')
 }
