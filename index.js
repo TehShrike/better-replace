@@ -1,4 +1,4 @@
-module.exports = function replace(regex, replacerFunction, string){
+module.exports = function replace(regex, replacerFunction, string) {
 	return string.replace(forceGlobal(regex), (match, ...rest) => {
 		const captures = rest.slice(0, -2)
 		return replacerFunction(...captures)
